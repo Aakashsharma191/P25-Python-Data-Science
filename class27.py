@@ -53,5 +53,18 @@ for i in range(length):
             l[j],l[j+1]=l[j+1],l[j]
 print(l,ietration)'''
 
+
+l = [15,2,22,1,78,65,5,11,32,45,125,26,11,12,13,14,5,6,7,8,9]
+length = len(l)
+ietration = 1
+sortedd = True
+for i in range(length):
+    for j in range(length-1):
+        ietration += 1
+        if l[j] > l[j+1]:
+            l[j],l[j+1] = l[j+1],l[j]
+print(l,ietration)
+
+
         
 

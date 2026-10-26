@@ -159,7 +159,7 @@ else:
 # input [2,3,15,15,3,2]
 #output : pa;indromic list
 
-l = [1,1,2,15,15,2,1,1]
+'''l = [1,1,2,15,15,2,1,1]
 length = len(l)
 palindrome = True
 for i in range(length//2):
@@ -169,4 +169,39 @@ for i in range(length//2):
 if palindrome:
     print("yes palindrome number ")
 else:
-    print("no palindrome number ")
+    print("no palindrome number ")'''
+
+
+'''l = [1,2,4,5,7,3]
+length = len(l)
+sum = 0
+real_sum = 0
+for i in range(1,length+1+1):
+    sum += i
+for elem in l:
+    real_sum += elem
+missing = sum - real_sum
+print(missing)
+'''
+
+'''l = [1,1,1,2,2,5,2,2,1,1,1]
+length = len(l)
+palindrome = True
+for i in range(length//2):
+    if l[i] != l[length-i-1]:
+        palindrome = False
+if palindrome:
+    print("palindrome number ")
+else:
+    print("no palindrome number")'''
+
+
+'''l = [10,20,30,40,50]
+sortedd = True
+for i in range(len(l)-1):
+    if l[i] > l[i+1]:
+        sortedd = False
+if sortedd:
+    print("sorted")
+else:
+    print("no sorted")'''
